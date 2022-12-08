@@ -8,14 +8,14 @@ Dictionaries used:
 - https://docs.google.com/spreadsheets/d/1Lq5G_J4mggpmeqDGryKwBbHUDoXzF_zx/edit?usp=sharing&ouid=110084142835466802195&rtpof=true&sd=true
 
 
-## Build the Docker
+## A. Build the Docker
 ```shell
 docker pull rocker/tidyverse:4.2.2
 docker build -t sdp-interop:0.0.1 .
 ```
 
 
-## Run the code:
+## B. Run the code:
 
 ```shell
 docker run --rm \
@@ -25,6 +25,10 @@ docker run --rm \
 sdp-interop:0.0.1  Rscript /constants_folder/Wasterwater_Processing.R 
 ```
 
-<RUN_LOCAL_FOLDER> : the local directory where the run folder is located (e.g. 
-<CONSTANTS_LOCAL_FOLDER> :
-<OUTPUT_LOCAL_FOLDER> : 
+#### Parameters
+
+- **<RUN_LOCAL_FOLDER>** : location of the run folder (e.g. ./220401_NB501949_0418_AHJ73VAFX3/)
+
+- **<CONSTANTS_LOCAL_FOLDER>** : location of the folder containing the constants table (constants.xlsx) and the R script (Wasterwater_Processing.R)
+
+- **<OUTPUT_LOCAL_FOLDER>** : folder for output table (final_output.csv)
