@@ -22,13 +22,13 @@ docker run --rm \
 -v <RUN_LOCAL_FOLDER>:/data_raw/  \
 -v <CONSTANTS_LOCAL_FOLDER>:/constants_folder/ \
 -v <OUTPUT_LOCAL_FOLDER>:/data_output/ \
-sdp-interop:0.0.1  Rscript /constants_folder/Wasterwater_Processing.R 
+sdp-interop:0.0.1  Rscript /constants_folder/Wastewater_Processing.R 
 ```
 
 #### Parameters
 
 - **<RUN_LOCAL_FOLDER>** : location of the run folder (e.g. ./220401_NB501949_0418_AHJ73VAFX3/)
 
-- **<CONSTANTS_LOCAL_FOLDER>** : location of the folder containing the constants table (constants.xlsx) and the R script (Wasterwater_Processing.R)
+- **<CONSTANTS_LOCAL_FOLDER>** : location of the folder containing the constants table (constants.xlsx) and the R script (Wastewater_Processing.R)
 
 - **<OUTPUT_LOCAL_FOLDER>** : folder for output table (final_output.csv)
