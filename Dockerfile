@@ -7,7 +7,7 @@ RUN apt-get update
 RUN apt-get install -y wget
 
 # Get Interop command line tools.
-RUN wget https://github.com/Illumina/interop/releases/download/v1.1.25/InterOp-1.1.25-Linux-GNU.tar.gz 
+RUN wget https://github.com/Illumina/interop/releases/download/v1.2.0/interop-1.2.0-Linux-GNU.tar.gz 
 RUN tar -xf *.gz --strip-components 1
 RUN rm *.gz
 
