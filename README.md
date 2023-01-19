@@ -11,7 +11,7 @@ Dictionaries used:
 ## A. Build the Docker
 ```shell
 docker pull rocker/tidyverse:4.2.2
-docker build -t sdp-interop:0.0.1 .
+docker build -t sdp-interop:1.2.0  .
 ```
 
 <br>
