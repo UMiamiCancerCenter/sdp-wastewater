@@ -23,7 +23,7 @@ docker run --rm \
 -v <RUN_LOCAL_FOLDER>:/data_raw/  \
 -v <CONSTANTS_LOCAL_FOLDER>:/constants_folder/ \
 -v <OUTPUT_LOCAL_FOLDER>:/data_output/ \
-sdp-interop:0.0.1  Rscript /constants_folder/Wastewater_Processing.R 
+sdp-interop:1.2.0  Rscript /constants_folder/Wastewater_Processing.R 
 ```
 
 #### Parameters
